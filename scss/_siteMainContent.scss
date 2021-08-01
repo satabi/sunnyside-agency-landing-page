@@ -84,11 +84,15 @@
 
         @include breakpoint-down(medium) {
           text-align: center;
+
+          h1 {
+            font-size: $fs-03 !important;
+          }
         }
 
         h1 {
           margin-bottom: 2.4rem;
-          font-size: $fs-03;
+          font-size: $fs-02;
           font-weight: 900;
           @include letter-spacing(-0.6);
         }
